@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB10D7702AFF929200F6381E /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D76F2AFF929200F6381E /* SettingsScreen.swift */; };
+		FB10D7722AFF942D00F6381E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7712AFF942D00F6381E /* HomeScreen.swift */; };
+		FB10D7742AFF944000F6381E /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7732AFF944000F6381E /* ProfileScreen.swift */; };
+		FB10D7762B00F13300F6381E /* CustomTableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7752B00F13300F6381E /* CustomTableViewContainer.swift */; };
+		FB10D77C2B01E56800F6381E /* AllTransactionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D77B2B01E56800F6381E /* AllTransactionsScreen.swift */; };
+		FB10D77E2B01E57B00F6381E /* AllBusinessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D77D2B01E57B00F6381E /* AllBusinessScreen.swift */; };
+		FB10D7802B01E58A00F6381E /* MessagesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D77F2B01E58A00F6381E /* MessagesScreen.swift */; };
+		FB10D7862B01E72400F6381E /* PersonalProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7852B01E72400F6381E /* PersonalProfileView.swift */; };
+		FB10D7882B01E76000F6381E /* TokenizedProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7872B01E76000F6381E /* TokenizedProfileView.swift */; };
+		FB10D78A2B01E78300F6381E /* CardsProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D7892B01E78300F6381E /* CardsProfileView.swift */; };
+		FB10D78C2B01E7AF00F6381E /* TopTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D78B2B01E7AF00F6381E /* TopTabButton.swift */; };
 		FBDB8D562AF7AE2B00FADF84 /* IOMDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB8D552AF7AE2B00FADF84 /* IOMDApp.swift */; };
 		FBDB8D582AF7AE2B00FADF84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB8D572AF7AE2B00FADF84 /* ContentView.swift */; };
 		FBDB8D5A2AF7AE2C00FADF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDB8D592AF7AE2C00FADF84 /* Assets.xcassets */; };
 		FBDB8D5D2AF7AE2C00FADF84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDB8D5C2AF7AE2C00FADF84 /* Preview Assets.xcassets */; };
+		FBDB8D672AF7AEB700FADF84 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB8D662AF7AEB700FADF84 /* SplashScreen.swift */; };
+		FBDB8D692AF7B21C00FADF84 /* MainTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB8D682AF7B21C00FADF84 /* MainTabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB10D76F2AFF929200F6381E /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		FB10D7712AFF942D00F6381E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FB10D7732AFF944000F6381E /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		FB10D7752B00F13300F6381E /* CustomTableViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewContainer.swift; sourceTree = "<group>"; };
+		FB10D77B2B01E56800F6381E /* AllTransactionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransactionsScreen.swift; sourceTree = "<group>"; };
+		FB10D77D2B01E57B00F6381E /* AllBusinessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBusinessScreen.swift; sourceTree = "<group>"; };
+		FB10D77F2B01E58A00F6381E /* MessagesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesScreen.swift; sourceTree = "<group>"; };
+		FB10D7852B01E72400F6381E /* PersonalProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalProfileView.swift; sourceTree = "<group>"; };
+		FB10D7872B01E76000F6381E /* TokenizedProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenizedProfileView.swift; sourceTree = "<group>"; };
+		FB10D7892B01E78300F6381E /* CardsProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsProfileView.swift; sourceTree = "<group>"; };
+		FB10D78B2B01E7AF00F6381E /* TopTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabButton.swift; sourceTree = "<group>"; };
 		FBDB8D522AF7AE2B00FADF84 /* IOMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDB8D552AF7AE2B00FADF84 /* IOMDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOMDApp.swift; sourceTree = "<group>"; };
 		FBDB8D572AF7AE2B00FADF84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBDB8D592AF7AE2C00FADF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDB8D5C2AF7AE2C00FADF84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBDB8D662AF7AEB700FADF84 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FBDB8D682AF7B21C00FADF84 /* MainTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB10D7772B01E4BC00F6381E /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D77A2B01E4E400F6381E /* CustomViews */,
+				FB10D7792B01E4D700F6381E /* Views */,
+				FB10D7782B01E4CD00F6381E /* Screens */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		FB10D7782B01E4CD00F6381E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D7842B01E6C000F6381E /* Settings */,
+				FB10D7832B01E67E00F6381E /* Profile */,
+				FB10D7822B01E66C00F6381E /* HomeScreen */,
+				FB10D7812B01E64000F6381E /* HomePage */,
+				FBDB8D662AF7AEB700FADF84 /* SplashScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FB10D7792B01E4D700F6381E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB10D77A2B01E4E400F6381E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D7752B00F13300F6381E /* CustomTableViewContainer.swift */,
+				FB10D78B2B01E7AF00F6381E /* TopTabButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FB10D7812B01E64000F6381E /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FBDB8D682AF7B21C00FADF84 /* MainTabScreen.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FB10D7822B01E66C00F6381E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D77B2B01E56800F6381E /* AllTransactionsScreen.swift */,
+				FB10D77D2B01E57B00F6381E /* AllBusinessScreen.swift */,
+				FB10D77F2B01E58A00F6381E /* MessagesScreen.swift */,
+				FB10D7712AFF942D00F6381E /* HomeScreen.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		FB10D7832B01E67E00F6381E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D7732AFF944000F6381E /* ProfileScreen.swift */,
+				FB10D7852B01E72400F6381E /* PersonalProfileView.swift */,
+				FB10D7872B01E76000F6381E /* TokenizedProfileView.swift */,
+				FB10D7892B01E78300F6381E /* CardsProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FB10D7842B01E6C000F6381E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D76F2AFF929200F6381E /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		FBDB8D492AF7AE2B00FADF84 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +153,7 @@
 		FBDB8D542AF7AE2B00FADF84 /* IOMD */ = {
 			isa = PBXGroup;
 			children = (
+				FB10D7772B01E4BC00F6381E /* sources */,
 				FBDB8D552AF7AE2B00FADF84 /* IOMDApp.swift */,
 				FBDB8D572AF7AE2B00FADF84 /* ContentView.swift */,
 				FBDB8D592AF7AE2C00FADF84 /* Assets.xcassets */,
@@ -137,8 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB10D77C2B01E56800F6381E /* AllTransactionsScreen.swift in Sources */,
+				FBDB8D692AF7B21C00FADF84 /* MainTabScreen.swift in Sources */,
+				FB10D7742AFF944000F6381E /* ProfileScreen.swift in Sources */,
+				FB10D78C2B01E7AF00F6381E /* TopTabButton.swift in Sources */,
+				FBDB8D672AF7AEB700FADF84 /* SplashScreen.swift in Sources */,
+				FB10D7882B01E76000F6381E /* TokenizedProfileView.swift in Sources */,
+				FB10D7862B01E72400F6381E /* PersonalProfileView.swift in Sources */,
 				FBDB8D582AF7AE2B00FADF84 /* ContentView.swift in Sources */,
 				FBDB8D562AF7AE2B00FADF84 /* IOMDApp.swift in Sources */,
+				FB10D7722AFF942D00F6381E /* HomeScreen.swift in Sources */,
+				FB10D7702AFF929200F6381E /* SettingsScreen.swift in Sources */,
+				FB10D78A2B01E78300F6381E /* CardsProfileView.swift in Sources */,
+				FB10D7802B01E58A00F6381E /* MessagesScreen.swift in Sources */,
+				FB10D7762B00F13300F6381E /* CustomTableViewContainer.swift in Sources */,
+				FB10D77E2B01E57B00F6381E /* AllBusinessScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
